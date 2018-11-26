@@ -1,3 +1,8 @@
+body {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -7,6 +12,29 @@ nav li {
   list-style: none;
   display: inline-block;
   word-spacing: 20px;
+}
+
+nav ul {
+  word-spacing: 20px;
+  padding: 10px;
+}
+
+nav {
+  color: #666666;
+}
+
+ul :hover {
+  color: #ee534f;
+}
+
+.logo img {
+  width: 300px;
+  height: 100px;
+  margin-left: 0%;
+}
+
+.searchBox {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
