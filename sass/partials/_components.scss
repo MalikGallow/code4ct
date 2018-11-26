@@ -24,3 +24,22 @@ ul :hover{
     padding: 20px;
    
 }
+
+// header styling
+header{
+    background-color:$header-color;
+    color: $header-text;
+    width: 1123px;
+    height: 350px;
+    padding: 170px;
+}
+
+header p{
+    padding-right: 90px;
+    
+
+}
+
+.btn{
+    padding-left: 400px;
+}

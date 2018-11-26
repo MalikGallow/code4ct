@@ -37,4 +37,20 @@ ul :hover {
   padding: 20px;
 }
 
+header {
+  background-color: black;
+  color: #e8e8e8;
+  width: 1123px;
+  height: 350px;
+  padding: 170px;
+}
+
+header p {
+  padding-right: 90px;
+}
+
+.btn {
+  padding-left: 400px;
+}
+
 /*# sourceMappingURL=styles.css.map */
