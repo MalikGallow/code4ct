@@ -29,3 +29,12 @@ article{
     height: 200px;
 }
 
+// styling for middle div
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ourClasses{
+    display: inline;
+}

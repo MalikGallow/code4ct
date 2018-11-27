@@ -31,6 +31,15 @@ article {
   height: 200px;
 }
 
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ourClasses {
+  display: inline;
+}
+
 nav ul {
   word-spacing: 20px;
   padding: 10px;
@@ -38,6 +47,9 @@ nav ul {
 
 nav {
   color: #666666;
+  position: fixed;
+  background-color: white;
+  width: 100%;
 }
 
 ul :hover {
@@ -60,6 +72,7 @@ header {
   width: 100%;
   height: 400px;
   text-align: center;
+  padding-top: 40px;
 }
 
 header h1 {
@@ -96,9 +109,43 @@ button {
 }
 
 .long {
-  width: 138.5px;
-  height: 0.5px;
+  width: 140px;
+  height: 0.2px;
   background-color: #e7e7e7;
+  float: left;
+}
+
+.short {
+  width: 25px;
+  height: 2.5px;
+  background-color: #ee534f;
+  float: left;
+}
+
+.readMore {
+  width: 15%;
+  border: 1px solid #e8e8e8;
+  border-radius: 0%;
+}
+
+section {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  color: #e8e8e8;
+}
+
+.icons {
+  padding: 60px;
+}
+
+.icons i {
+  font-size: 30px;
+  color: #ee534f;
+}
+
+.ourClasses {
+  margin: 40px;
 }
 
 /*# sourceMappingURL=styles.css.map */
