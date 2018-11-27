@@ -11,5 +11,21 @@ nav li{
     word-spacing: 20px;
 }
 
+// who we are article styling
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 70px;
+}
 
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 20px;
+}
+
+.images img{
+    width: 200px;
+    height: 200px;
+}
 
