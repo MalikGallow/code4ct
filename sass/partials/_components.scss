@@ -33,7 +33,7 @@ header{
     background-color:black;
     color: $font-color;
     width: 100%;
-    height: 400px;
+    height: 550px;
     text-align: center;
     padding-top: 40px;
 }
@@ -62,8 +62,19 @@ button{
     height: 6vh;
     width: 10%;
     border-radius: 5px;
-    text-align: center;
+    // text-align: left;
     
+}
+
+button a{
+    color: #ee534f;
+}
+
+button:hover{
+    width: 150px;
+    text-align: left;
+    color: white;
+   
 }
 
 #start{
@@ -118,6 +129,20 @@ section{
     color: $btn-nav;
 }
 
-.ourClasses {
-    margin: 40px;
+.our{
+    padding-left: 70px;
+}
+
+.mainContainer{
+    padding-top: 70px;
+}
+
+.fourImages img{
+    width: 200px;
+    height: 200px;
+}
+
+.bigImg img{
+    height: 400px;
+    width: 500px;
 }

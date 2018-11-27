@@ -35,6 +35,18 @@ section{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.ourClasses{
-    display: inline;
+.our{
+    display: inline-block;
+}
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.fourImages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
