@@ -25,7 +25,12 @@ ul :hover{
 // search box styling
 .searchBox{
     padding: 20px;
-   
+   width: 100%;
+  
+}
+
+.searchBox:hover{
+    width: 100%;
 }
 
 // header styling
@@ -58,22 +63,44 @@ header p{
 
 // button styling
 
-button{
+#start, #donate{
     height: 6vh;
     width: 10%;
     border-radius: 5px;
-    // text-align: left;
+    
     
 }
 
+#donate a{
+    .fa-angle-double-right{
+        color: black;
+    }
+}
+
+#donate:hover{
+    width: 130px;
+    transition: 0.9s ease-in;
+    .fa-angle-double-right{
+        padding-left: 30px;
+        color: white;
+    }
+}
+
 button a{
-    color: #ee534f;
+    .fa-angle-double-right{
+        display: none;
+    }
 }
 
 button:hover{
-    width: 150px;
+    width: 170px;
     text-align: left;
     color: white;
+    .fa-angle-double-right{
+        display: inline;
+        padding: 5px;
+        color: #e7e7e7;
+    }
    
 }
 
@@ -101,7 +128,7 @@ button:hover{
     width: 25px;
     height: 2.5px;
     background-color: #ee534f;
-   float: left;
+    float: left;
 }
 
 // read more button styling
@@ -146,3 +173,9 @@ section{
     height: 400px;
     width: 500px;
 }
+
+.team{
+    background-color: white;
+    color:black;
+}
+

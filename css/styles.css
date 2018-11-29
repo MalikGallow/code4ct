@@ -5,6 +5,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.line {
+  width: 200px;
+}
+.line hr {
+  height: 10px;
+}
+
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -78,6 +85,11 @@ ul :hover {
 
 .searchBox {
   padding: 20px;
+  width: 100%;
+}
+
+.searchBox:hover {
+  width: 100%;
 }
 
 header {
@@ -103,20 +115,38 @@ header p {
   line-height: 1.75;
 }
 
-button {
+#start, #donate {
   height: 6vh;
   width: 10%;
   border-radius: 5px;
 }
 
-button a {
-  color: #ee534f;
+#donate a .fa-angle-double-right {
+  color: black;
+}
+
+#donate:hover {
+  width: 130px;
+  transition: 0.9s ease-in;
+}
+#donate:hover .fa-angle-double-right {
+  padding-left: 30px;
+  color: white;
+}
+
+button a .fa-angle-double-right {
+  display: none;
 }
 
 button:hover {
-  width: 150px;
+  width: 170px;
   text-align: left;
   color: white;
+}
+button:hover .fa-angle-double-right {
+  display: inline;
+  padding: 5px;
+  color: #e7e7e7;
 }
 
 #start {
@@ -183,6 +213,11 @@ section {
 .bigImg img {
   height: 400px;
   width: 500px;
+}
+
+.team {
+  background-color: white;
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */
