@@ -79,10 +79,10 @@ header p{
 
 #donate:hover{
     width: 130px;
-    transition: 0.9s ease-in;
     .fa-angle-double-right{
-        padding-left: 30px;
+        padding-left: 10px;
         color: white;
+        text-decoration: none;
     }
 }
 
@@ -100,6 +100,7 @@ button:hover{
         display: inline;
         padding: 5px;
         color: #e7e7e7;
+        text-decoration: none;
     }
    
 }
