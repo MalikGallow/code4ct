@@ -1,65 +1,8 @@
-// nav bar styling
-nav ul{
-    word-spacing: 20px;
-    padding: 10px; 
-}
 
-nav {
-    color: #666666;
-    position: fixed;
-    background-color: white;
-    width: 100%;
-}
 
-ul :hover{
-    color: #ee534f;
-}
 
-// logo styling
-.logo img{
-    width: 300px;
-    height: 100px;
-    margin-left: 0%;
-}
 
-// search box styling
-.searchBox{
-    padding: 20px;
-   width: 100%;
-  
-}
 
-.searchBox:hover{
-    width: 100%;
-}
-
-// header styling
-header{
-    background-color:black;
-    color: $font-color;
-    width: 100%;
-    height: 550px;
-    text-align: center;
-    padding-top: 40px;
-}
-
-header h1{
-    font-size: 45px;
-     padding-left: 90px;
-     padding-right: 90px;
-     padding-top: 80px;
-     
-}
-
-header p{
-    padding-right: 190px;
-    padding-left: 190px;
-    font-size: 15px;
-    line-height: 1.75;
-    
-    
-
-}
 
 // button styling
 
@@ -120,14 +63,15 @@ button:hover{
 
 .long{
     width: 140px;
-    height: 0.2px;
+    height: 1.2px;
     background-color: #e7e7e7;
+    border: 1px solid #e7e7e7;
     float: left;
 }
 
 .short{
     width: 25px;
-    height: 2.5px;
+    height: 1.5px;
     background-color: #ee534f;
     float: left;
 }
@@ -139,44 +83,7 @@ button:hover{
     border-radius: 0%;
 }
 
-// section styling
-section{
-    text-align: center;
-    background-color: black;
-    width: 100%;
-    color: $font-color;
-   
-}
 
-.icons{
-   padding: 60px;
-}
 
-.icons i{
-    font-size: 30px;
-    color: $btn-nav;
-}
 
-.our{
-    padding-left: 70px;
-}
-
-.mainContainer{
-    padding-top: 70px;
-}
-
-.fourImages img{
-    width: 200px;
-    height: 200px;
-}
-
-.bigImg img{
-    height: 400px;
-    width: 500px;
-}
-
-.team{
-    background-color: white;
-    color:black;
-}
 

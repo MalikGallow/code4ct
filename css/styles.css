@@ -5,11 +5,97 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.line {
-  width: 200px;
+nav ul {
+  word-spacing: 20px;
+  padding: 10px;
 }
-.line hr {
-  height: 10px;
+
+nav {
+  color: #666666;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+ul :hover {
+  color: #ee534f;
+}
+
+.logo img {
+  width: 300px;
+  height: 100px;
+  margin-left: 0%;
+}
+
+.searchBox {
+  padding: 20px;
+  width: 100%;
+}
+
+.searchBox:hover {
+  width: 100%;
+}
+
+header {
+  background-color: black;
+  color: #e8e8e8;
+  width: 100%;
+  height: 550px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+header h1 {
+  font-size: 45px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 80px;
+}
+
+header p {
+  padding-right: 190px;
+  padding-left: 190px;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+ection {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  color: #e8e8e8;
+}
+
+.icons {
+  padding: 60px;
+}
+
+.icons i {
+  font-size: 30px;
+  color: #ee534f;
+}
+
+.our {
+  padding-left: 70px;
+}
+
+.mainContainer {
+  padding-top: 70px;
+}
+
+.fourImages img {
+  width: 200px;
+  height: 200px;
+}
+
+.bigImg img {
+  height: 400px;
+  width: 500px;
+}
+
+.team {
+  background-color: white;
+  color: black;
 }
 
 nav {
@@ -127,11 +213,11 @@ header p {
 
 #donate:hover {
   width: 130px;
-  transition: 0.9s ease-in;
 }
 #donate:hover .fa-angle-double-right {
-  padding-left: 30px;
+  padding-left: 10px;
   color: white;
+  text-decoration: none;
 }
 
 button a .fa-angle-double-right {
@@ -147,6 +233,7 @@ button:hover .fa-angle-double-right {
   display: inline;
   padding: 5px;
   color: #e7e7e7;
+  text-decoration: none;
 }
 
 #start {
@@ -163,14 +250,15 @@ button:hover .fa-angle-double-right {
 
 .long {
   width: 140px;
-  height: 0.2px;
+  height: 1.2px;
   background-color: #e7e7e7;
+  border: 1px solid #e7e7e7;
   float: left;
 }
 
 .short {
   width: 25px;
-  height: 2.5px;
+  height: 1.5px;
   background-color: #ee534f;
   float: left;
 }
@@ -218,6 +306,19 @@ section {
 .team {
   background-color: white;
   color: black;
+}
+.team .short {
+  width: 25px;
+  height: 1.5px;
+  background-color: #ee534f;
+  float: left;
+}
+.team .long {
+  width: 140px;
+  height: 1.2px;
+  background-color: #e7e7e7;
+  border: 1px solid #e7e7e7;
+  float: left;
 }
 
 /*# sourceMappingURL=styles.css.map */
