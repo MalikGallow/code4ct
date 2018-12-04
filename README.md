@@ -18,4 +18,4 @@ Technologies used:
 Contributors:
  - Abdul Malik Gallow
 
- ##Live link: https://malikgallow.github.io/my_cv/
+ ##Live link: https://malikgallow.github.io/code4ct/
