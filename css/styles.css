@@ -147,58 +147,24 @@ section {
   grid-gap: 10px;
 }
 
-nav ul {
-  word-spacing: 20px;
-  padding: 10px;
+.mainPic {
+  display: grid;
+  grid-template-columns: 700px 500px;
 }
 
-nav {
-  color: #666666;
-  position: fixed;
-  background-color: white;
-  width: 100%;
+.pics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-ul :hover {
-  color: #ee534f;
-}
-
-.logo img {
+.pics img {
   width: 300px;
-  height: 100px;
-  margin-left: 0%;
+  height: 300px;
 }
 
-.searchBox {
-  padding: 20px;
-  width: 100%;
-}
-
-.searchBox:hover {
-  width: 100%;
-}
-
-header {
-  background-color: black;
-  color: #e8e8e8;
-  width: 100%;
-  height: 550px;
-  text-align: center;
-  padding-top: 40px;
-}
-
-header h1 {
-  font-size: 45px;
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-top: 80px;
-}
-
-header p {
-  padding-right: 190px;
-  padding-left: 190px;
-  font-size: 15px;
-  line-height: 1.75;
+.picDe {
+  padding-left: 10px;
+  padding-right: 20px;
 }
 
 #start, #donate {
@@ -267,58 +233,6 @@ button:hover .fa-angle-double-right {
   width: 15%;
   border: 1px solid #e8e8e8;
   border-radius: 0%;
-}
-
-section {
-  text-align: center;
-  background-color: black;
-  width: 100%;
-  color: #e8e8e8;
-}
-
-.icons {
-  padding: 60px;
-}
-
-.icons i {
-  font-size: 30px;
-  color: #ee534f;
-}
-
-.our {
-  padding-left: 70px;
-}
-
-.mainContainer {
-  padding-top: 70px;
-}
-
-.fourImages img {
-  width: 200px;
-  height: 200px;
-}
-
-.bigImg img {
-  height: 400px;
-  width: 500px;
-}
-
-.team {
-  background-color: white;
-  color: black;
-}
-.team .short {
-  width: 25px;
-  height: 1.5px;
-  background-color: #ee534f;
-  float: left;
-}
-.team .long {
-  width: 140px;
-  height: 1.2px;
-  background-color: #e7e7e7;
-  border: 1px solid #e7e7e7;
-  float: left;
 }
 
 /*# sourceMappingURL=styles.css.map */
