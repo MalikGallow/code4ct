@@ -89,8 +89,8 @@ section {
 }
 
 .bigImg img {
-  height: 400px;
-  width: 500px;
+  height: 700px;
+  width: 800px;
 }
 
 .team {
@@ -235,10 +235,16 @@ button:hover .fa-angle-double-right {
   border-radius: 0%;
 }
 
-.picsDe a {
-  font-size: 30px;
-  word-spacing: 10px;
-  color: #e7e7e7;
+.picDe p, .picDe h3, .picDe hr {
+  color: #888888;
+}
+.picDe h2 {
+  color: #555555;
+}
+.picDe a {
+  font-size: 20px;
+  padding-right: 5px;
+  color: #888888;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -84,15 +84,21 @@ button:hover{
 }
 
 // social media icons
-.picDe a {
- font-size: 30px;
- word-spacing: 10px;
- color: #e7e7e7;
-}
+
 
 .picDe{
-    p{
+    p, h3, hr{
         color: $font-color3;
+    }
+
+    h2{
+        color: #555555;
+    }
+
+    a{
+        font-size: 20px;
+        padding-right: 5px;
+        color:$font-color3;   
     }
 }
 
