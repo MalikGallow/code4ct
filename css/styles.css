@@ -235,4 +235,10 @@ button:hover .fa-angle-double-right {
   border-radius: 0%;
 }
 
+.picsDe a {
+  font-size: 30px;
+  word-spacing: 10px;
+  color: #e7e7e7;
+}
+
 /*# sourceMappingURL=styles.css.map */
