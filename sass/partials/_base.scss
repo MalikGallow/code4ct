@@ -109,3 +109,30 @@ section{
     color:black;
     
 }
+
+// counter styling
+.counter{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: $font-color;
+    padding-left: 350px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.count{
+    padding-right: 50px;
+}
+
+.counter{
+    p{
+        font-size: 10px;
+    }
+
+    hr{
+        width: 20px;
+        color: $btn-nav;
+        border: 1px solid $btn-nav;
+    }
+}
