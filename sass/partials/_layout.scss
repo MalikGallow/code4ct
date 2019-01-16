@@ -32,7 +32,8 @@ article{
 // styling for middle div
 section{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 15px;
 }
 
 .our{
