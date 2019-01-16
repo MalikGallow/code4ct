@@ -225,4 +225,44 @@ button:hover {
   padding-right: 5px;
   color: #888888; }
 
+aside {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 40px; }
+
+aside p {
+  font-size: 10px; }
+aside i {
+  color: #ee534f; }
+aside input {
+  padding-right: 10px;
+  background-color: #f9f9f9;
+  border: 2px solid #f9f9f9; }
+aside button {
+  background-color: #ee534f;
+  color: #e7e7e7;
+  border: 2px solid #ee534f;
+  height: 30px;
+  border-radius: 5px; }
+
+.sponsors {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  height: 150px; }
+
+#sponsorContainer {
+  display: inline-block; }
+
+.sponsors img {
+  width: 136px;
+  height: 180px; }
+
+.contact {
+  padding-top: 30px;
+  background-color: white;
+  margin-left: 60px;
+  color: #555555;
+  text-align: left; }
+
 /*# sourceMappingURL=styles.css.map */

@@ -102,6 +102,68 @@ button:hover{
     }
 }
 
+// subscribe styling
+aside{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+aside{
+    p{
+        font-size: 10px;
+    }
+
+    i{
+        color: $btn-nav;
+    }
+
+    input{
+        padding-right: 10px;
+       background-color: $email;
+       border: 2px solid $email;
+    }
+
+    button{
+       background-color: $btn-nav;
+       color: #e7e7e7;
+       border: 2px solid $btn-nav;
+       height: 30px;
+       border-radius: 5px;
+    }
+}
+
+// sponsor styling
+.sponsors{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    height: 150px;
+    
+   
+}
+
+#sponsorContainer{
+    display: inline-block;
+}
+
+.sponsors{
+    img{
+        width: 136px;
+        height: 180px;
+    }
+}
+
+
+.contact{
+    padding-top: 30px;
+    background-color: white;
+    margin-left: 60px;
+    color: $background-color;
+    text-align: left;
+}
+
+
 
 
 
