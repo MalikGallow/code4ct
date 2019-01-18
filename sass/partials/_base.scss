@@ -135,8 +135,11 @@ section{
 }
 
 .counter{
+    span{
+        font-size: 30px;
+    }
     p{
-        font-size: 10px;
+        font-size: 16px;
     }
 
     hr{
@@ -144,4 +147,23 @@ section{
         color: $btn-nav;
         border: 1px solid $btn-nav;
     }
+}
+
+.contactItem2{
+    background-color: white;
+    color: #666666;
+}
+
+// footer
+footer{
+    display: inline;
+}
+
+.copyright{
+    padding: 0%;
+    margin: 0%;
+}
+
+.follow{
+    padding: 0%;
 }

@@ -60,14 +60,19 @@ section{
     grid-template-columns: 500px 500px;
 }
 
+.team{
+    margin-left: 50px;
+}
+
 .pics{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .pics img{
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 300px;
+    background-color: gray;
 }
 
 .picDe{
@@ -80,3 +85,27 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+// footer
+footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: $btn-nav;
+    text-align: right;
+    color: white;
+}
+
+
+
+.follow{
+    text-align: right;
+    padding-left: 250px;
+}
+
+footer{
+    a{
+        color: white;
+    }
+}
+

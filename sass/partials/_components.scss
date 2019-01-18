@@ -130,7 +130,7 @@ aside{
 
 aside{
     p{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     i{
@@ -162,14 +162,27 @@ aside{
    
 }
 
-#sponsorContainer{
+.sponsorContainer{
+    width: 100%;
     display: inline-block;
+    animation-name: slider;
+    animation-duration: 20ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative; left:100%;
+
+}
+
+@keyframes slider{
+    100%{
+        position: relative;left:-1000px;
+    }
 }
 
 .sponsors{
     img{
-        width: 136px;
-        height: 180px;
+         display: inline;
+         margin-right:50px;
     }
 }
 
@@ -182,6 +195,16 @@ aside{
     text-align: left;
 }
 
+.fa-phone, .fa-envelope, .fa-map-marker-alt{
+    padding: 5px;
+    border-radius: 10%;
+    border: 1px solid grey;
+    color: #555555;
+}
+
+.fa-phone:hover, .fa-envelope:hover, .fa-map-marker-al :hover{
+    color: #ee534f;
+}
 
 
 

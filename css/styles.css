@@ -117,13 +117,34 @@ section {
   padding-right: 50px;
 }
 
+.counter span {
+  font-size: 30px;
+}
 .counter p {
-  font-size: 10px;
+  font-size: 16px;
 }
 .counter hr {
   width: 20px;
   color: #ee534f;
   border: 1px solid #ee534f;
+}
+
+.contactItem2 {
+  background-color: white;
+  color: #666666;
+}
+
+footer {
+  display: inline;
+}
+
+.copyright {
+  padding: 0%;
+  margin: 0%;
+}
+
+.follow {
+  padding: 0%;
 }
 
 nav {
@@ -183,14 +204,19 @@ section {
   grid-template-columns: 500px 500px;
 }
 
+.team {
+  margin-left: 50px;
+}
+
 .pics {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .pics img {
-  width: 150px;
-  height: 150px;
+  width: 220px;
+  height: 300px;
+  background-color: gray;
 }
 
 .picDe {
@@ -201,6 +227,24 @@ section {
 .counter {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ee534f;
+  text-align: right;
+  color: white;
+}
+
+.follow {
+  text-align: right;
+  padding-left: 250px;
+}
+
+footer a {
+  color: white;
 }
 
 #start, #donate {
@@ -300,7 +344,7 @@ aside {
 }
 
 aside p {
-  font-size: 10px;
+  font-size: 15px;
 }
 aside i {
   color: #ee534f;
@@ -325,13 +369,29 @@ aside button {
   height: 150px;
 }
 
-#sponsorContainer {
+.sponsorContainer {
+  width: 5050px;
   display: inline-block;
+  animation-name: carousel;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: relative;
+  left: 100%;
 }
 
+@keyframes carousel {
+  100% {
+    position: relative;
+    left: -5000px;
+  }
+}
 .sponsors img {
-  width: 136px;
   height: 180px;
+  display: inline;
+  width: auto;
+  height: 180px;
+  margin-right: 50px;
 }
 
 .contact {
@@ -340,6 +400,17 @@ aside button {
   margin-left: 60px;
   color: #555555;
   text-align: left;
+}
+
+.fa-phone, .fa-envelope, .fa-map-marker-alt {
+  padding: 5px;
+  border-radius: 10%;
+  border: 1px solid grey;
+  color: #555555;
+}
+
+.fa-phone:hover, .fa-envelope:hover, .fa-map-marker-al :hover {
+  color: #ee534f;
 }
 
 /*# sourceMappingURL=styles.css.map */
