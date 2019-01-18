@@ -8,24 +8,43 @@
 
 #start, #donate{
     height: 6vh;
-    width: 10%;
+    width: 130px;
     border-radius: 5px;
     
     
 }
 
-#donate a{
+a{
+    text-decoration: none;
+}
+
+
+
+#donate{
+    
     .fa-angle-double-right{
         color: black;
+        // text-decoration: none;
     }
 }
 
-#donate:hover{
-    width: 130px;
+#start:hover{
+    width: 137px;
     .fa-angle-double-right{
         padding-left: 10px;
         color: white;
-        text-decoration: none;
+        // text-decoration: none;
+    }
+
+}
+
+
+#donate:hover{
+    width: 137px;
+    .fa-angle-double-right{
+        padding-left: 10px;
+        color: white;
+        // text-decoration: none;
     }
 }
 
@@ -36,7 +55,7 @@ button a{
 }
 
 button:hover{
-    width: 170px;
+    // width: 170px;
     text-align: left;
     color: white;
     .fa-angle-double-right{
@@ -50,13 +69,13 @@ button:hover{
 
 #start{
     background-color: $btn-nav;
-    border: 1px solid $btn-nav;
+    border: 3px solid $btn-nav;
     color: $font-color;
 }
 
 #donate{
     background-color: black;
-    border: 1px solid $font-color;
+    border: 3px solid $font-color;
     color: $font-color;
    
 }

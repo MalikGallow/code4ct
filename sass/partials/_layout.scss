@@ -21,7 +21,9 @@ article{
 .images{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-left: 20px;
+    padding-left: 130px;
+    grid-row-gap: 25px;
+    grid-column-gap: 10px;
 }
 
 .images img{
@@ -49,7 +51,7 @@ section{
 .fourImages{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-row-gap: 5px;
 }
 
 //Meet our team 
