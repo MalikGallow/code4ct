@@ -2,16 +2,17 @@ body{
     margin-left: 0%;
     margin-right: 0%;
     font-family: $font;
+    // overflow: hidden;
 }
 
 // nav bar styling
 nav ul{
-    word-spacing: 20px;
-    padding: 10px; 
+    word-spacing: 1.250em;
+    padding: 0.625em; 
 }
 
 nav {
-    color: #666666;
+    color: $font-color2;
     position: fixed;
     background-color: white;
     width: 100%;
@@ -19,32 +20,28 @@ nav {
 
 nav{
     a{
-        color: #666666;
+        color: $font-color2;
         text-decoration: none;
     }
     
 }
 
 ul :hover{
-    color: #ee534f;
+    color: $btn-nav;
 }
 
 // logo styling
 .logo img{
-    width: 300px;
-    height: 100px;
+    width: 18.750em;
+    height: 6.250em;
     margin-left: 0%;
 }
 
 // search box styling
 .searchBox{
-    padding: 20px;
+    padding:1.250em;
    width: 100%;
   
-}
-
-.searchBox:hover{
-    width: 100%;
 }
 
 // header styling
@@ -52,31 +49,31 @@ header{
     background-image: url(../images/Code4CT-homepage.jpg);
     color: $font-color;
     width: 100%;
-    height: 550px;
+    height: 34.375em;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 5.000em;
     
 }
 
 header h1{
-    font-size: 45px;
-     padding-left: 90px;
-     padding-right: 90px;
-     padding-top: 120px;
+    font-size: 2.813em;
+     padding-left: 5.625em;
+     padding-right: 5.625em;
+     padding-top: 1.0em;
      
 }
 
 header p{
-    padding-right: 190px;
-    padding-left: 190px;
-    font-size: 15px;
+    padding-right: 11.875em;
+    padding-left: 11.875em;
+    font-size: 0.938em;
     line-height: 1.75;
     
     
 
 }
 
-section{
+.skills{
     text-align: center;
     background-color: black;
     width: 100%;
@@ -85,37 +82,38 @@ section{
 }
 
 .icons{
-   padding: 60px;
+   padding: 3.750em;
 }
 
 .icons i{
-    font-size: 30px;
+    font-size: 1.875em;
     color: $btn-nav;
 }
 
 .our{
-    padding-left: 70px;
+    padding-left: 4.375em;
 }
 
 .mainContainer{
-    padding-top: 70px;
+    padding-top: 4.375em;
 }
 
 .fourImages img{
-    width: 200px;
-    height: 200px;
+    width: 12.500em;
+    height: 12.500em;
 }
 
 .bigImg {
   img{
-    height: 500px;
-    width: 800px;
+    height: 31.250em;
+    width: 50.000em;
   }  
 }
 
 .team{
     background-color: white;
     color:black;
+    padding-bottom: 1.250em;
     
 }
 
@@ -125,33 +123,47 @@ section{
     background-color: black;
     width: 100%;
     color: $font-color;
-    padding-left: 350px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+    padding-top: 3.750em;
+    padding-bottom: 3.750em;
 }
 
 .count{
-    padding-right: 50px;
+    padding-right: 3.125em;
 }
 
 .counter{
     span{
-        font-size: 30px;
+        font-size: 1.875em;
     }
     p{
-        font-size: 16px;
+        font-size: 1.000em;
     }
 
     hr{
-        width: 20px;
+        width: 1.250em;
         color: $btn-nav;
         border: 1px solid $btn-nav;
     }
+
+    margin-left: 0%;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.contactItem1{
+    padding-top: 3.125em;
 }
 
 .contactItem2{
     background-color: white;
     color: #666666;
+    text-align: left;
+    padding-left: 1.875em;
 }
 
 // footer
@@ -166,4 +178,65 @@ footer{
 
 .follow{
     padding: 0%;
+    padding-right: 20%;
+}
+
+// contact page styling
+
+.banner{
+    padding-top: 8.750em;
+    text-align: center;
+    padding-bottom: 6.250em;
+    background-color: #e7e7e7;
+    color: $grey;
+}
+
+.message{
+  text-align: left;
+  padding-left: 1.875em;
+  padding-bottom: 5.000em;
+}
+
+.messageSend{
+    margin-left: 1.875em;
+    font-size: 1.250em;
+}
+
+.welcomeImg{
+    background-color: grey;
+    width: 35.625em;
+    height: 23.750em;
+}
+
+.weImg{
+    background-color: grey;
+    height: 34.375em;
+    width: 43.750em;
+
+}
+
+.whoWe{
+    padding-left: 1.875em;
+}
+
+.welcome{
+    padding-bottom: 1.875em;
+    padding-top: 1.875em;
+    padding-left: 1.250em;
+}
+
+.weDescrip{
+    padding-left: 1.250em;
+    h3{
+        color: $btn-nav;
+    }
+}
+
+.stats{
+    padding-bottom: 1.875em;
+    padding-top: 1.875em;
+}
+
+.portfolioHead{
+    text-align: center;
 }

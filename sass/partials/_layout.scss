@@ -12,7 +12,7 @@ nav li{
 }
 
 // who we are article styling
-article{
+.about{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 70px;
@@ -32,7 +32,8 @@ article{
 }
 
 // styling for middle div
-section{
+
+.skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 15px;
@@ -61,7 +62,7 @@ section{
 }
 
 .team{
-    margin-left: 50px;
+    margin-left: 8.125em;;
 }
 
 .pics{
@@ -109,3 +110,20 @@ footer{
     }
 }
 
+
+// contact page
+.message{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.welcome{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.whoWe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
