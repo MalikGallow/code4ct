@@ -210,18 +210,57 @@ button:hover{
     text-align: left;
 }
 
-.fa-phone, .fa-envelope, .fa-map-marker-alt{
+.fa-phone, .fa-envelope, .fa-map-marker-alt, .fa-clock{
     padding: 0.313em;
     border-radius: 10%;
     border: 1px solid grey;
     color: #555555;
 }
 
-.fa-phone:hover, .fa-envelope:hover, .fa-map-marker-al :hover{
+.fa-phone:hover, .fa-envelope:hover, .fa-map-marker-al :hover, .fa-clock:hover{
     color: #ee534f;
 }
 
+// gallery styling on portfolio
+.gallery{
+    margin-left: 90px;
+    img{
+        width: 100%;
+        height: 100%;
+        transition: opacity .3s linear
+    }
 
+    img:hover{
+        transform: scale(1.1)
+    }
+}
+
+.buttons{
+    padding-left: 600px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    button{
+        color: $font-color3;
+        background-color: white;
+        border: 1px solid $font-color3;
+        width: 30px;
+    }
+
+    button:hover{
+        background-color: #ee534f;
+        color: white;
+    }
+}
+
+.messageSend{
+    button{
+        background-color: #ee534f;
+        color: white;
+        border: 1px solid $btn-nav;
+        width: 170px;
+        height: 50px;
+    }
+}
 
 
 

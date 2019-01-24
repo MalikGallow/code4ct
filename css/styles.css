@@ -167,6 +167,13 @@ footer {
   background-color: #e7e7e7;
   color: #555555;
 }
+.banner p {
+  color: #ee534f;
+}
+
+.subHead {
+  display: inline-block;
+}
 
 .message {
   text-align: left;
@@ -184,11 +191,19 @@ footer {
   width: 35.625em;
   height: 23.75em;
 }
+.welcomeImg img {
+  width: 100%;
+  height: 100%;
+}
 
 .weImg {
   background-color: grey;
   height: 34.375em;
   width: 43.75em;
+}
+.weImg img {
+  width: 100%;
+  height: 100%;
 }
 
 .whoWe {
@@ -211,6 +226,9 @@ footer {
 .stats {
   padding-bottom: 1.875em;
   padding-top: 1.875em;
+  color: #e7e7e7;
+  background-color: black;
+  padding-left: 30px;
 }
 
 .portfolioHead {
@@ -330,6 +348,26 @@ footer a {
 .whoWe {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.galleryContainer {
+  display: grid;
+  grid-template-columns: 300px 300px 435px 300px;
+}
+
+.galleryContainer2 {
+  display: grid;
+  grid-template-columns: 300px 435px 300px 300px;
+}
+
+.galleryContainer3 {
+  display: grid;
+  grid-template-columns: 300px 300px 435px 300px;
 }
 
 #start, #donate {
@@ -498,15 +536,51 @@ button:hover .fa-angle-double-right {
   text-align: left;
 }
 
-.fa-phone, .fa-envelope, .fa-map-marker-alt {
+.fa-phone, .fa-envelope, .fa-map-marker-alt, .fa-clock {
   padding: 0.313em;
   border-radius: 10%;
   border: 1px solid grey;
   color: #555555;
 }
 
-.fa-phone:hover, .fa-envelope:hover, .fa-map-marker-al :hover {
+.fa-phone:hover, .fa-envelope:hover, .fa-map-marker-al :hover, .fa-clock:hover {
   color: #ee534f;
+}
+
+.gallery {
+  margin-left: 90px;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s linear;
+}
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.buttons {
+  padding-left: 600px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.buttons button {
+  color: #888888;
+  background-color: white;
+  border: 1px solid #888888;
+  width: 30px;
+}
+.buttons button:hover {
+  background-color: #ee534f;
+  color: white;
+}
+
+.messageSend button {
+  background-color: #ee534f;
+  color: white;
+  border: 1px solid #ee534f;
+  width: 170px;
+  height: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
