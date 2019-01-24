@@ -262,6 +262,15 @@ button:hover{
     }
 }
 
+.course1{
+    background-color: $font-color;
+    button{
+        color: white;
+        background-color: $btn-nav;
+        border: 2px solid $btn-nav;
+    }
+}
+
 
 
 

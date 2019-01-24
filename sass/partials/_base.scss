@@ -260,4 +260,16 @@ footer{
     text-align: center;
 }
 
-// about page
+// courses
+.courses{
+    padding-left: 20px;
+    h2{
+        text-align: center;
+    }
+}
+
+.course1{
+    border: 2px solid $font-color;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
