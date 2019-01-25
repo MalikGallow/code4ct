@@ -135,6 +135,41 @@ button:hover{
     }
 }
 
+// counter styling
+.counter{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: $font-color;
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+    padding-top: 3.750em;
+    padding-bottom: 3.750em;
+}
+
+.count{
+    padding-right: 3.125em;
+}
+
+.counter{
+    span{
+        font-size: 1.875em;
+    }
+    p{
+        font-size: 1.000em;
+    }
+
+    hr{
+        width: 1.250em;
+        color: $btn-nav;
+        border: 1px solid $btn-nav;
+    }
+
+    margin-left: 0%;
+}
+
+
+
 // subscribe styling
 .subscribe{
     text-align: center;
@@ -262,6 +297,12 @@ button:hover{
     }
 }
 
+.banner{
+    span{
+        color: $btn-nav;
+    }
+}
+
 .course1{
     background-color: $font-color;
     button{
@@ -271,6 +312,16 @@ button:hover{
     }
 }
 
+.cart{
+    margin-left: 90px;
+    background-color: $btn-nav;
+    color:white;
+    border: 1px solid $btn-nav;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+}
 
 
 

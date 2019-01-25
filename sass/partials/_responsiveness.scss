@@ -1,0 +1,146 @@
+// media queries for mobile
+@media only screen 
+and (min-device-width: 0px) 
+and (max-device-width: 767px) {
+      nav{
+          img{
+              width: 40px;
+              height: 40px;;
+          }
+          font-size: 8px;
+          width: 360px;
+          position: fixed
+      }
+
+      .searchBox{
+          width: 100%;
+      }
+    header h1{
+        font-size: 1.813em;
+        padding-top: 1.0em;
+        padding-left: 0%;
+        padding-right: 0%;
+         
+    }
+    
+    header p{
+        font-size: 0.938em;
+        line-height: 1.75;
+        padding: 0%;
+    }
+
+    .about{
+        display: block;
+     ;
+    }
+
+    .images{
+      display: inline-block;
+      padding-left: 0%;
+    }
+
+    .readMore{
+        width: 30%;
+        border: 1px solid $font-color;
+        border-radius: 0%;
+        font-size: 10px;
+    }
+
+    .skills {
+        font-size: 10px;
+        display: block;
+    }
+
+    .our{
+        padding-left: 0%;
+        width: 360px;
+        p{
+            font-size: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .mainContainer{
+        display: block;
+        padding-left: 75px;
+      
+    }
+    
+    .fourImages{
+        display: block;
+      
+    }
+
+    .fourImages img{
+        width: 12.500em;
+        height: 12.500em;
+    }
+    
+    .bigImg {
+      img{
+        width: 12.500em;
+        height: 12.500em;
+      }  
+    }
+
+    .mainPic{
+        display: block;
+        // grid-template-columns: 500px 500px;
+    }
+    
+    .team{
+        margin-left: 2.125em;
+    }
+    
+    .pics{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .pics img{
+        width: 110px;
+        height: 179px;
+        background-color: gray;
+    }
+    
+    .picDe{
+     
+        font-size: 10px;
+    }
+
+    .counter{
+        padding-left: 0;
+      
+        span{
+            font-size: 0.875em;
+        }
+    }
+
+    .count{
+        padding-right:0.125em ;
+    }
+
+    .sponsors{
+        width: 360px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    
+    .contact{
+        display: block;
+    }
+
+    .follow{
+       font-size: 10px;
+        padding-left: 0%;
+        
+        
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+}

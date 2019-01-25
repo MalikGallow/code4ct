@@ -117,44 +117,6 @@ header p{
     
 }
 
-// counter styling
-.counter{
-    text-align: center;
-    background-color: black;
-    width: 100%;
-    color: $font-color;
-    padding-left: 1.875em;
-    padding-right: 1.875em;
-    padding-top: 3.750em;
-    padding-bottom: 3.750em;
-}
-
-.count{
-    padding-right: 3.125em;
-}
-
-.counter{
-    span{
-        font-size: 1.875em;
-    }
-    p{
-        font-size: 1.000em;
-    }
-
-    hr{
-        width: 1.250em;
-        color: $btn-nav;
-        border: 1px solid $btn-nav;
-    }
-
-    margin-left: 0%;
-}
-
-.contact{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
 .contactItem1{
     padding-top: 3.125em;
 }
@@ -272,4 +234,6 @@ footer{
     border: 2px solid $font-color;
     padding-left: 30px;
     padding-bottom: 40px;
+    margin-bottom: 30px;
+    
 }
