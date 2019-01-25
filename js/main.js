@@ -11,3 +11,4 @@ $('.number').each(function () {
         }
     });
 });
+

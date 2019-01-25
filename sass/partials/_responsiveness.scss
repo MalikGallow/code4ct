@@ -9,7 +9,7 @@ and (max-device-width: 767px) {
           }
           font-size: 8px;
           width: 360px;
-          position: fixed
+          position: fixed;
       }
 
       .searchBox{
@@ -143,4 +143,42 @@ and (max-device-width: 767px) {
     .copyright{
         font-size: 10px;
     }
+
+    .welcome{
+        display: block;
+    }
+
+    .welcomeImg{
+        margin-top: 10px;
+        width: 21.625em;
+        height: 15.75em;
+        
+    }
+
+    .weImg{
+        height: 17.375em;
+        width: 18.75em;
+    }
+
+    .whoWe{
+        display: block;
+    }
+
+    .stats{
+        font-size: 10px;
+    }
+
+    .con{
+        padding-left: 20px;
+    }
+
+   .message{
+       display: block;
+   }
+
+   .mapouter {
+    text-align: right;
+    height: 500px;
+    width: 100%;
+  }
 }
