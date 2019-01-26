@@ -547,12 +547,13 @@ button:hover .fa-angle-double-right {
   background-color: black;
   color: white;
   overflow: hidden;
-  height: 11.875em;
+  height: 13.875em;
 }
 
 .sponsorItems {
   width: 100%;
-  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   animation-name: slider;
   animation-duration: 20s;
   animation-iteration-count: infinite;
@@ -568,7 +569,8 @@ button:hover .fa-angle-double-right {
   }
 }
 .sponsors img {
-  display: inline-block;
+  height: auto;
+  width: auto;
   margin-right: 3.125em;
 }
 
