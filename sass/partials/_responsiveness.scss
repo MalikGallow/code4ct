@@ -3,6 +3,7 @@
 and (min-device-width: 0px) 
 and (max-device-width: 767px) {
       nav{
+        
           img{
               width: 40px;
               height: 40px;;
@@ -123,6 +124,7 @@ and (max-device-width: 767px) {
 
     .sponsors{
         width: 360px;
+        height:2.875em;
         img{
             width: 100%;
             height: 100%;
@@ -180,5 +182,31 @@ and (max-device-width: 767px) {
     text-align: right;
     height: 500px;
     width: 100%;
+  }
+
+  .galleryContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .galleryContainer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .galleryContainer3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .buttons {
+    padding-left: 107px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+
+  .gallery {
+    margin-left: 13px;
   }
 }

@@ -163,7 +163,7 @@ footer {
 
 .weImg {
   background-color: grey;
-  height: 34.375em;
+  height: 42.375em;
   width: 43.75em;
 }
 .weImg img {
@@ -263,7 +263,7 @@ nav li {
 .fourImages {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-row-gap: 5px;
+  grid-column-gap: 20px;
 }
 
 .mainPic {
@@ -767,6 +767,7 @@ button:hover .fa-angle-double-right {
 
   .sponsors {
     width: 360px;
+    height: 2.875em;
   }
   .sponsors img {
     width: 100%;
@@ -821,6 +822,31 @@ button:hover .fa-angle-double-right {
     text-align: right;
     height: 500px;
     width: 100%;
+  }
+
+  .galleryContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .galleryContainer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .galleryContainer3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .buttons {
+    padding-left: 107px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .gallery {
+    margin-left: 13px;
   }
 }
 
