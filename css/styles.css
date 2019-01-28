@@ -850,8 +850,19 @@ button:hover .fa-angle-double-right {
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  nav {
+    width: 48em;
+  }
+
   header {
-    width: 79em;
+    width: 48em;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  header h1 {
+    padding-left: 0%;
+    padding-right: 0%;
   }
 
   .about {
@@ -862,8 +873,14 @@ button:hover .fa-angle-double-right {
   }
 
   .skills {
-    width: 84em;
+    width: 51em;
     margin-top: 34px;
+  }
+
+  .icons {
+    padding-left: 30px;
+    padding: 0%;
+    padding-top: 30px;
   }
 
   .our {
