@@ -849,5 +849,10 @@ button:hover .fa-angle-double-right {
     margin-left: 13px;
   }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  header {
+    width: 79em;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
