@@ -926,6 +926,14 @@ button:hover .fa-angle-double-right {
     padding-top: 168px;
     background-color: white;
   }
+
+  .messageSend {
+    margin-left: 0.875em;
+  }
+
+  .con {
+    margin-left: 20px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
