@@ -912,6 +912,13 @@ button:hover .fa-angle-double-right {
   .follow {
     padding-left: 0%;
   }
+
+  .welcomeImg {
+    background-color: white;
+    width: 23.625em;
+    height: 18.75em;
+    padding-top: 13em;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
