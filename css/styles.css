@@ -860,6 +860,11 @@ button:hover .fa-angle-double-right {
     padding: 0%;
     display: block;
   }
+
+  .skills {
+    width: 84em;
+    margin-top: 34px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
