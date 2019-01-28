@@ -5,6 +5,10 @@ body{
     // overflow: hidden;
 }
 
+*{
+    scroll-behavior: smooth;
+}
+
 // nav bar styling
 nav ul{
     word-spacing: 1.250em;
@@ -16,6 +20,7 @@ nav {
     position: fixed;
     background-color: white;
     width: 100%;
+    top: 0%;
 }
 
 nav{

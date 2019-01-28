@@ -10,7 +10,7 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
 </head>
 
 <body>
@@ -35,11 +35,13 @@
         <div class="searchBox">
             <input type="text" placeholder="search">
             <button id="search"><i class="fas fa-search"></i></button>
-            <button class="cart"><i class="fas fa-shopping-cart"></i></button>
+            <button class="cart" id="cart"><i class="fas fa-shopping-cart"></i></button>
         </div>
 
         
     </nav>
+
+    <button onclick="topFunction()" id="backTop" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 
     <!-- heading -->
     <main class="banner">
@@ -67,7 +69,7 @@
                     <p>Code a simple one-page website using HTML and JQuery.</p>
                     <p>Duration: 3 hours</p>
                     <p>Price: R250</p>
-                    <button>Add to cart</button>
+                    <button id="item">Add to cart</button>
                 </article>
 
                 <article class="course1">
@@ -377,6 +379,8 @@
         </footer>
 
     </article>
+
+    <script src="js/main.js"></script>
 
 
 
