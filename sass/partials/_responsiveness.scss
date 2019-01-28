@@ -301,4 +301,19 @@ and (max-device-width: 1024px){
     .con{
         margin-left: 20px;
     }
+
+    .galleryContainer{
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .galleryContainer2{
+        grid-template-columns: auto auto auto auto;
+    }
+    .galleryContainer3{
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .buttons{
+        padding-left: 395px;
+    }
 }
