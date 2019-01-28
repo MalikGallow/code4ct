@@ -919,6 +919,13 @@ button:hover .fa-angle-double-right {
     height: 18.75em;
     padding-top: 13em;
   }
+
+  .weImg {
+    height: 26.375em;
+    width: 26.75em;
+    padding-top: 168px;
+    background-color: white;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
