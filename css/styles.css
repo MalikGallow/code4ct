@@ -869,6 +869,14 @@ button:hover .fa-angle-double-right {
   .our {
     padding-left: 1.375em;
   }
+
+  .team {
+    margin-left: 6.125em;
+  }
+
+  .counter {
+    width: 75em;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
