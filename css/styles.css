@@ -853,6 +853,13 @@ button:hover .fa-angle-double-right {
   header {
     width: 79em;
   }
+
+  .about {
+    padding-right: 103px;
+    margin-left: 11em;
+    padding: 0%;
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
