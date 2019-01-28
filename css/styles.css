@@ -865,6 +865,10 @@ button:hover .fa-angle-double-right {
     width: 84em;
     margin-top: 34px;
   }
+
+  .our {
+    padding-left: 1.375em;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
